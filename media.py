@@ -19,12 +19,13 @@ class Movie():
 
         :param title: title
         :param storyline: storyline
-        :param poster_image_url: poster_image_url
+        :param poster_image_url: poster_image
         :param trailer_youtube_url: trailer_youtube
         """
 
         self.title = title
         self.storyine = storyline
+        self.poster_image_url = poster_image
         self.trailer_youtube_url = trailer_youtube
 
     # Open the youtube trailer in a browser
